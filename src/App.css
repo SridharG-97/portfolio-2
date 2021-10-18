@@ -1,0 +1,13 @@
+.App  {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+.Nav-App{  
+   display: flex;
+   flex: 1;
+   width: 100%;
+   position: sticky;
+
+}

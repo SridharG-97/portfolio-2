@@ -16,7 +16,7 @@ function Heading() {
   return (
     <div bg="dark" expand="lg" className={navbar ? "navbar active" : "navbar"}>
       <div className="nav-left" >
-        <Link to="about" smooth={true} duration={1200}>
+        <Link to="home" smooth={true} duration={600}>
           <p>Home</p>
         </Link>
       </div>
@@ -24,16 +24,16 @@ function Heading() {
        {/* nav Link */}
 
       <div className="nav-right">
-        <Link to="about" smooth={true} duration={1200}>
+        <Link to="home" smooth={true} duration={600}>
           <p>Home</p>
         </Link>
-        <Link to="about" smooth={true} duration={1200}>
-          <p>About Me</p>
+        <Link to="about" smooth={true} duration={600}>
+          <p>About </p>
         </Link>
-        <Link to="skills" smooth={true} duration={1200}>
+        <Link to="skills" smooth={true} duration={600}>
           <p>Skills</p>
         </Link>
-        <Link to="contact" smooth={true} duration={1200}>
+        <Link to="contact" smooth={true} duration={600}>
           <p>Contact </p>
         </Link>
       </div>

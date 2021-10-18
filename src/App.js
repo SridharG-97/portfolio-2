@@ -14,14 +14,14 @@ function App() {
       <Navbar />
       </div>
       <div className="sections">
-        {/* <div className="Home-App">
+         <div className="Home-App">
       
           <Home />
-        </div> */}
-        {/* <div className="About-App">
+        </div> 
+       <div className="About-App">
         
           < About/>
-        </div> */}
+        </div>
       </div>
     </div>
   );
