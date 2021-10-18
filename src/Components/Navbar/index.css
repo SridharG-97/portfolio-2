@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+
+    
+}
+.nav-left{
+    display: flex;
+    flex:0.3;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left>a >p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    flex: 0.7;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.nav-right>a >p  {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
