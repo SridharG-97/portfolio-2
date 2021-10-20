@@ -1,54 +1,37 @@
-
-.home{
-    /* display: flex;
+.home {
+  display: flex;
     
     flex-wrap: wrap;
     min-height: 100vh;
     background-color: #202a3b;
     justify-content: space-around;
-    align-items: center; */
+    align-items: center; 
 
-    display: flex;
-    
-    min-height: 100vh;
-    background-color: #202a3b;
-    flex-direction: row;
-    justify-content: space-around;
-   flex: wrap;
-    font-size: 15px;
-    flex-wrap: wrap;
-    
-   
-   
   
-
 }
-.home-img{
-    display: flex;
- flex: 0.4;
- 
-    justify-content: center;
-    align-items: center;
+.home-img {
+  display: flex;
+  flex: 0.4;
+  justify-content: center;
+  align-items: center;
 }
-.homepage{ 
-    display: flex;
-    flex: 1;
-    flex-direction: row; 
-  justify-content: space-evenly ;
-    color: white;
-    font-size:15px;
-    
-    flex-wrap: wrap;
-    min-height: 50vh;
-    padding-top: 5rem;
+.homepage {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 15px;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  padding-top: 5rem;
 }
-.home-content{
-    display: flex;
-    flex: 0.5;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
-    
+.home-content {
+  display: flex;
+  flex: 0.55;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
 }

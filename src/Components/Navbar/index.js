@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import "./index.css";
-import { Link } from "react-scroll";
+import React, { useState } from 'react';
+import  "./index.css";
+import  {Link} from "react-scroll"
 
-function Heading() {
+function Index() {
   const [navbar, setNavbar] = useState(false);
+  
   const changeBackround = () => {
     if (window.scrollY >= 8) {
       setNavbar(true);
@@ -14,31 +15,27 @@ function Heading() {
 
   window.addEventListener("scroll", changeBackround);
   return (
-    <div bg="dark" expand="lg" className={navbar ? "navbar active" : "navbar"}>
-      <div className="nav-left" >
-        <Link to="home" smooth={true} duration={600}>
-          <p>Home</p>
-        </Link>
+    <div className={navbar ? "navbar active" : "navbar"}>
+      <div className="nav-left">
+     <h3>Sridhar</h3>
       </div>
-
-       {/* nav Link */}
-
       <div className="nav-right">
         <Link to="home" smooth={true} duration={600}>
           <p>Home</p>
         </Link>
         <Link to="about" smooth={true} duration={600}>
-          <p>About </p>
+          <p>About</p>
         </Link>
         <Link to="skills" smooth={true} duration={600}>
           <p>Skills</p>
         </Link>
         <Link to="contact" smooth={true} duration={600}>
-          <p>Contact </p>
+          <p>Contact</p>
         </Link>
-      </div>
+        </div>
+      
     </div>
-  );
+  )
 }
 
-export default Heading;
+export default Index
